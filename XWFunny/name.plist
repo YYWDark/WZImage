@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   name.plist
-   XWFunny
-
-   Created by wyy on 16/3/30.
-   Copyright (c) 2016年 wyy. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<array>
+	<string>dad习a大a大d</string>
+	<string>韩梅梅</string>
+	<string>李磊</string>
+	<string>JACK</string>
+	<string>谢书波</string>
+	<string>陈小伟</string>
+	<string>涂守坦</string>
+	<string>陈亚运</string>
+	<string>谭威</string>
+	<string>刘果</string>
+	<string>奥特曼</string>
+</array>
 </plist>

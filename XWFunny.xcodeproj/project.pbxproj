@@ -15,6 +15,15 @@
 		754EBEB01CAB68AF003BBE0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754EBEAE1CAB68AF003BBE0B /* LaunchScreen.storyboard */; };
 		754EBEBB1CAB68AF003BBE0B /* XWFunnyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 754EBEBA1CAB68AF003BBE0B /* XWFunnyTests.m */; };
 		754EBEC61CAB68B0003BBE0B /* XWFunnyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 754EBEC51CAB68B0003BBE0B /* XWFunnyUITests.m */; };
+		754EBED51CAB6947003BBE0B /* XWImageManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 754EBED41CAB6947003BBE0B /* XWImageManage.m */; };
+		754EBEDB1CAB6D03003BBE0B /* PhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 754EBEDA1CAB6D03003BBE0B /* PhotoView.m */; };
+		754EBEE11CAB81DA003BBE0B /* UIColor+XWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 754EBEE01CAB81DA003BBE0B /* UIColor+XWAdd.m */; };
+		754EBEE61CABA9BD003BBE0B /* offline.png in Resources */ = {isa = PBXBuildFile; fileRef = 754EBEE21CABA9BD003BBE0B /* offline.png */; };
+		754EBEE71CABA9BD003BBE0B /* offline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 754EBEE31CABA9BD003BBE0B /* offline@2x.png */; };
+		754EBEE81CABA9BD003BBE0B /* online.png in Resources */ = {isa = PBXBuildFile; fileRef = 754EBEE41CABA9BD003BBE0B /* online.png */; };
+		754EBEE91CABA9BD003BBE0B /* online@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 754EBEE51CABA9BD003BBE0B /* online@2x.png */; };
+		754EBEEB1CABB22D003BBE0B /* name.plist in Resources */ = {isa = PBXBuildFile; fileRef = 754EBEEA1CABB22D003BBE0B /* name.plist */; };
+		754EBEEE1CABC13B003BBE0B /* UIImage+XWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 754EBEED1CABC13B003BBE0B /* UIImage+XWAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,19 @@
 		754EBEC11CAB68B0003BBE0B /* XWFunnyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XWFunnyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		754EBEC51CAB68B0003BBE0B /* XWFunnyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWFunnyUITests.m; sourceTree = "<group>"; };
 		754EBEC71CAB68B0003BBE0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754EBED31CAB6947003BBE0B /* XWImageManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWImageManage.h; sourceTree = "<group>"; };
+		754EBED41CAB6947003BBE0B /* XWImageManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWImageManage.m; sourceTree = "<group>"; };
+		754EBED91CAB6D03003BBE0B /* PhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoView.h; sourceTree = "<group>"; };
+		754EBEDA1CAB6D03003BBE0B /* PhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoView.m; sourceTree = "<group>"; };
+		754EBEDF1CAB81DA003BBE0B /* UIColor+XWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+XWAdd.h"; path = "../UIColor+XWAdd.h"; sourceTree = "<group>"; };
+		754EBEE01CAB81DA003BBE0B /* UIColor+XWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+XWAdd.m"; path = "../UIColor+XWAdd.m"; sourceTree = "<group>"; };
+		754EBEE21CABA9BD003BBE0B /* offline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offline.png; sourceTree = "<group>"; };
+		754EBEE31CABA9BD003BBE0B /* offline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "offline@2x.png"; sourceTree = "<group>"; };
+		754EBEE41CABA9BD003BBE0B /* online.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = online.png; sourceTree = "<group>"; };
+		754EBEE51CABA9BD003BBE0B /* online@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "online@2x.png"; sourceTree = "<group>"; };
+		754EBEEA1CABB22D003BBE0B /* name.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = name.plist; sourceTree = "<group>"; };
+		754EBEEC1CABC13B003BBE0B /* UIImage+XWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XWAdd.h"; sourceTree = "<group>"; };
+		754EBEED1CABC13B003BBE0B /* UIImage+XWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XWAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +123,28 @@
 		754EBE9F1CAB68AF003BBE0B /* XWFunny */ = {
 			isa = PBXGroup;
 			children = (
+				754EBEE21CABA9BD003BBE0B /* offline.png */,
+				754EBEE31CABA9BD003BBE0B /* offline@2x.png */,
+				754EBEE41CABA9BD003BBE0B /* online.png */,
+				754EBEE51CABA9BD003BBE0B /* online@2x.png */,
 				754EBEA31CAB68AF003BBE0B /* AppDelegate.h */,
 				754EBEA41CAB68AF003BBE0B /* AppDelegate.m */,
 				754EBEA61CAB68AF003BBE0B /* ViewController.h */,
 				754EBEA71CAB68AF003BBE0B /* ViewController.m */,
+				754EBEEA1CABB22D003BBE0B /* name.plist */,
 				754EBEA91CAB68AF003BBE0B /* Main.storyboard */,
 				754EBEAC1CAB68AF003BBE0B /* Assets.xcassets */,
 				754EBEAE1CAB68AF003BBE0B /* LaunchScreen.storyboard */,
 				754EBEB11CAB68AF003BBE0B /* Info.plist */,
 				754EBEA01CAB68AF003BBE0B /* Supporting Files */,
+				754EBED31CAB6947003BBE0B /* XWImageManage.h */,
+				754EBED41CAB6947003BBE0B /* XWImageManage.m */,
+				754EBED91CAB6D03003BBE0B /* PhotoView.h */,
+				754EBEDA1CAB6D03003BBE0B /* PhotoView.m */,
+				754EBEDF1CAB81DA003BBE0B /* UIColor+XWAdd.h */,
+				754EBEE01CAB81DA003BBE0B /* UIColor+XWAdd.m */,
+				754EBEED1CABC13B003BBE0B /* UIImage+XWAdd.m */,
+				754EBEEC1CABC13B003BBE0B /* UIImage+XWAdd.h */,
 			);
 			path = XWFunny;
 			sourceTree = "<group>";
@@ -244,8 +279,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				754EBEB01CAB68AF003BBE0B /* LaunchScreen.storyboard in Resources */,
+				754EBEE61CABA9BD003BBE0B /* offline.png in Resources */,
+				754EBEE81CABA9BD003BBE0B /* online.png in Resources */,
+				754EBEE71CABA9BD003BBE0B /* offline@2x.png in Resources */,
 				754EBEAD1CAB68AF003BBE0B /* Assets.xcassets in Resources */,
+				754EBEEB1CABB22D003BBE0B /* name.plist in Resources */,
 				754EBEAB1CAB68AF003BBE0B /* Main.storyboard in Resources */,
+				754EBEE91CABA9BD003BBE0B /* online@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +310,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754EBEE11CAB81DA003BBE0B /* UIColor+XWAdd.m in Sources */,
 				754EBEA81CAB68AF003BBE0B /* ViewController.m in Sources */,
+				754EBEDB1CAB6D03003BBE0B /* PhotoView.m in Sources */,
+				754EBEEE1CABC13B003BBE0B /* UIImage+XWAdd.m in Sources */,
+				754EBED51CAB6947003BBE0B /* XWImageManage.m in Sources */,
 				754EBEA51CAB68AF003BBE0B /* AppDelegate.m in Sources */,
 				754EBEA21CAB68AF003BBE0B /* main.m in Sources */,
 			);
@@ -414,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XWFunny/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xw.XWFunny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XWFunny/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xw.XWFunny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +544,7 @@
 				754EBECC1CAB68B0003BBE0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		754EBECD1CAB68B0003BBE0B /* Build configuration list for PBXNativeTarget "XWFunnyTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +553,7 @@
 				754EBECF1CAB68B0003BBE0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		754EBED01CAB68B0003BBE0B /* Build configuration list for PBXNativeTarget "XWFunnyUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +562,7 @@
 				754EBED21CAB68B0003BBE0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

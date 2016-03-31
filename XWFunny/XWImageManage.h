@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "PhotoView.h"
 @interface XWImageManage : NSObject
+@property (nonatomic , strong)PhotoView *photoView;
++ (XWImageManage *)shareInstance;
 
 @end

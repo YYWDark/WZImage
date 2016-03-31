@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (XWAdd)
+- (nullable UIImage *)imageByResizeToSize:(CGSize)size;
 
+- (nullable UIImage *)imageByRoundCornerRadius:(CGFloat)radius
+                              corners:(UIRectCorner)corners
+                          borderWidth:(CGFloat)borderWidth
+                          borderColor:(nullable UIColor *)borderColor
+                       borderLineJoin:(CGLineJoin)borderLineJoin;
 @end
